@@ -1,0 +1,23 @@
+{
+    "robot": {
+        "wheel_diameter": 0.065,
+        "wheel_base": 0.18,
+        "length": 0.25,
+        "breadth": 0.20,
+        "encoder_ticks_per_rev": 2048
+    },
+
+    "sensors": {
+        "front_ir_offset": 0.12,
+        "back_ultrasonic_offset": -0.12,
+        "imu_yaw_noise": 0.02,
+        "front_ir_noise": 0.05,
+        "back_ultrasonic_noise": 0.08
+    },
+
+    "process_noise": {
+        "x": 0.01,
+        "y": 0.01,
+        "theta": 0.01
+    }
+}
