@@ -1,0 +1,23 @@
+# Maze map — encoder odometry + IR wall detection (grid)
+# Final pose: x=163.7 y=149.8 hdg=-5.4deg
+# Grid: 20x20 cells, 15cm per cell
+# Wall edges: 1
+
+# col,row,axis,side
+10,10,h,left
+
+# VISITED CELLS: col,row
+9,9
+10,9
+10,10
+
+# PATH: x,y
+150.0,150.0
+151.8,150.0
+153.6,150.0
+155.2,150.0
+156.8,150.0
+158.4,150.0
+159.9,150.0
+161.4,149.9
+163.1,149.8
